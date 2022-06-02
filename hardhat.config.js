@@ -3,6 +3,7 @@
 */
 require("@nomiclabs/hardhat-ethers");
 require('dotenv').config();
+require("hardhat-deploy");
 const { PRIVATE_KEY, MATIC_API_KEY } = process.env;
 module.exports = {
   defaultNetwork: "PolygonMumbai",
